@@ -5,8 +5,9 @@
     <title>Lambda</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <! -- уточинть -->
+    <meta content="width=device-width,initial-scale=1" name="viewport">
     <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 
@@ -63,8 +64,8 @@
             
             
             <div class="page-background page-background--ingredients">
-                <div class="layout-center-wrapper">
-                    <div class="clearfix">
+                   <div class="layout-center-wrapper">
+                    <div class="block-ingredients-wrapper clearfix">
                         <div class="block-ingredients">
                         <h2 class="page-title page-title--ingredients decoration decoration--white">Fine ingredients</h2>
                         <div class="block-ingredients__text">if you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, deleciouse Lamtda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</div>
@@ -216,30 +217,30 @@
                 <div class="layout-center-wrapper">
                     <div class="form-block-wrapper">
                         <div class="formblock-photo">
-                            <div class="formblock-photo__photo1"><img src="img/photo-small1.jpg"></div>
-                            <div class="formblock-photo__photo2"><img src="img/photo-small2.jpg"></div>
+                            <div class="formblock-photo__photo formblock-photo__photo--first"></div>
+                            <div class="formblock-photo__photo formblock-photo__photo--second"></div>
                         </div>
                         <div class="formblock-form">
                             <h2 class="page-title decoration">Just the right food</h2>
-                            <p class="formblock__text">if you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food,</p>
-                            <p class="formblock__text">if you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food,</p>
+                            <p class="formblock-form__text">if you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food,</p>
+                            <p class="formblock-form__text">if you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food,</p>
                             <form class="accounts-form" action="/auth" method="post">
-                                <div class="accounts-form-wrapper">
-                                    <div class="accounts-form__inner">   
-                                        <label class="accounts-form__label">Name</label>
-                                        <input class="account-form" type="text" name="name" >
+                                <div class="accounts-form__wrapper">
+                                    <div class="accounts-form-inner">   
+                                        <label class="accounts-form-inner__label">Name</label>
+                                        <input class="accounts-form-inner__input" type="text" name="name" placeholder="your name *">
                                     </div>
-                                    <div class="accounts-form__inner">    
-                                        <label class="label-for-form__label">Name</label>    
-                                        <input class="account-form" type="text" name="e-mail">
+                                    <div class="accounts-form-inner">    
+                                        <label class="accounts-form-inner__label">Name</label>    
+                                        <input class="accounts-form-inner__input" type="text" name="e-mail" placeholder="your email *">
                                     </div>
-                                    <div class="accounts-form__inner">    
-                                        <label class="label-for-form__label">Date</label>
-                                        <input class="account-form" type="text" name="e-mail">
+                                    <div class="accounts-form-inner">    
+                                        <label class="accounts-form-inner__label">Date</label>
+                                        <input class="accounts-form-inner__input accounts-form-inner__input--dateicon" type="text" name="date" placeholder="date *">
                                     </div>
-                                    <div class="accounts-form__inner">    
-                                        <label class="label-for-form__label">Party number</label>
-                                        <input class="accounts-form" type="text" name="e-mail">
+                                    <div class="accounts-form-inner">    
+                                        <label class="accounts-form-inner__label">Party number</label>
+                                        <input class="accounts-form-inner__input accounts-form-inner__input--numbericon" type="text" name="partynumber" placeholder="party number *">
                                     </div>    
                                 </div>
                                 <input type="submit" value="book now!">
@@ -252,11 +253,11 @@
         </div>
     
         <div class="footer">
-             <div class="layout-center-wrapper clearfix">
+             <div class="layout-center-wrapper layout-center-wrapper--footer clearfix">
                 <div class="footer-wrapper"> 
                     <div class="footer-block">
                         <div class="page-title page-title--footer decoration decoration--footer">Just the right food</div>
-                        <p class="footer-block__text">Lambda's new and expanded Chelsea location represents a truly a Lambda's new and expanded Chelsea location represents a truly a Lambda's new and expanded Chelsea location </p>
+                        <p class="footer-block__text footer-block__text--info">Lambda's new and expanded Chelsea location represents a truly a Lambda's new and expanded Chelsea location represents a truly a Lambda's new and expanded Chelsea location </p>
                     </div> 
                     <div class="footer-block">
                         <div class="page-title page-title--footer decoration decoration--footer">Just the right food</div>
